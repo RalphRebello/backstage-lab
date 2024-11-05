@@ -7,14 +7,14 @@ spec:
   type: website
   owner: ralphrebello-labz
   lifecycle: experimental
-kind: User
-metadata:
-  name: ralphrebello
-  annotations:
-    github.com/user-login: ralphrebello
-spec:
-  profile:
-    displayName: Ralph Rebello
-    email: ralph.rebello8@gmail.com
-  memberOf:
-    - engineering
+# kind: User
+# metadata:
+#   name: ralphrebello
+#   annotations:
+#     github.com/user-login: ralphrebello
+# spec:
+#   profile:
+#     displayName: Ralph Rebello
+#     email: ralph.rebello8@gmail.com
+#   memberOf:
+#     - engineering
