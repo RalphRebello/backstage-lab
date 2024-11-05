@@ -3,11 +3,19 @@ kind: Component
 metadata:
   name: lab-portal
   description: An example of a Backstage application.
-  # Example for optional annotations
-  # annotations:
-  #   github.com/project-slug: backstage/backstage
-  #   backstage.io/techdocs-ref: dir:.
 spec:
   type: website
-  owner: john@example.com
+  owner: ralphrebello-labz
   lifecycle: experimental
+
+kind: User
+metadata:
+  name: ralphrebello
+  annotations:
+    github.com/user-login: ralphrebello
+spec:
+  profile:
+    displayName: Ralph Rebello
+    email: ralph.rebello8@gmail.com
+  memberOf:
+    - engineering
