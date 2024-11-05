@@ -7,7 +7,6 @@ spec:
   type: website
   owner: ralphrebello-labz
   lifecycle: experimental
-
 kind: User
 metadata:
   name: ralphrebello
