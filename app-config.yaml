@@ -1,9 +1,9 @@
 app:
-  title: Scaffolded Backstage App
+  title: Lab de testes
   baseUrl: http://localhost:3000
 
 organization:
-  name: My Company
+  name: Lab Portal
 
 backend:
   # Used for enabling authentication, secret is shared by all backend plugins
@@ -65,8 +65,12 @@ techdocs:
 auth:
   # see https://backstage.io/docs/auth/ to learn about auth providers
   providers:
+    github:
+      development:
+        clientId: 'Ov23liuyPFYTTJzw2fjn'
+        clientSecret: '645d5d5f26ac2f82947c929c57684bcd44104046'
     # See https://backstage.io/docs/auth/guest/provider
-    guest: {}
+    # guest: {}
 
 scaffolder:
   # see https://backstage.io/docs/features/software-templates/configuration for software template options
